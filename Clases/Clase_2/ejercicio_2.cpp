@@ -10,9 +10,7 @@ using namespace std;
  Sino indicar cuántos años le faltan para poder votar.
 */
 
-
-int main()
-{
+int main() {
     int edad;
     
     cout << "Ingrese su edad: ";
@@ -25,4 +23,5 @@ int main()
     }
 
     return 0;
+    
 }

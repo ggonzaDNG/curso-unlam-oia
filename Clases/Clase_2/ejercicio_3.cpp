@@ -10,7 +10,6 @@ using namespace std;
 */
 
 int main() {
-
     char letra1, letra2, letra3;
 
     cout << "Ingrese la primera letra: ";
@@ -26,5 +25,7 @@ int main() {
     cout << letra2 << letra3 << letra1 << endl;
     cout << letra3 << letra1 << letra2 << endl;
     cout << letra3 << letra2 << letra1 << endl;
+
+    return 0;
 
 }

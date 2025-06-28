@@ -8,7 +8,6 @@ using namespace std;
  Pasar a binario los siguientes números decimales: 313, 833, 127 y 95.
 */
 
-
 int main() {
     int numeros[4] = {313, 833, 127, 95};
     int tamaño = 4; // esto indica el tamaño del array
@@ -31,4 +30,5 @@ int main() {
     }
 
     return 0;
+    
 }

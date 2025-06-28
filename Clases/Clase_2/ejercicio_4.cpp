@@ -10,7 +10,6 @@ using namespace std;
  escribir un programa que indique quién fue el ganador (pueden hacer el ingreso de datos como quieran).
 */
 
-
 int main() {
     char juan, maria;
 
@@ -32,4 +31,5 @@ int main() {
     }
     
     return 0;
+    
 }
