@@ -12,8 +12,8 @@ int main() {
     vector<int> numeros;
     int numero;
 
-    cout << "Ingrese números enteros positivos uno por uno.\n";
-    cout << "Para finalizar la carga, ingrese un número negativo.\n";
+    cout << "Ingresa números enteros positivos uno por uno.\n";
+    cout << "Para finalizar la carga, ingresa un número negativo.\n";
 
     while ((int)numeros.size() < 40) {
         cout << "Número " << numeros.size() + 1 << ": ";
@@ -23,7 +23,7 @@ int main() {
             break;
         }
         if (numero == 0) {
-            cout << "Por favor, ingrese un número entero positivo.\n";
+            cout << "Por favor, ingresa un número entero positivo.\n";
             continue;
         numeros.push_back(numero);
     }

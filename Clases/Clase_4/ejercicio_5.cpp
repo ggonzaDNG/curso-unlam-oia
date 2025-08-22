@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -12,15 +13,15 @@ int main() {
     vector<int> numeros;
     int numero;
 
-    cout << "Ingrese 10 números enteros positivos:\n";
-    
+    cout << "Ingresa 10 números enteros positivos:\n";
+
     for (int i = 0; i < 10; i++) {
             cout << "Número " << i + 1 << ": ";
             cin >> numero;
         numeros.push_back(numero);
     }
 
-    cout << "Ingrese un número entero positivo adicional: ";
+    cout << "Ingresa un número entero positivo adicional: ";
     cin >> numero;
 
     int contador = 0;
